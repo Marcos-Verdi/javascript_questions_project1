@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    margin: 0;
+    height: 100vh;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-container {
+    width: 70%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Urbanist;
+}
+
+.questions-title {
+    font-family: 'Dancing Script';
+    font-size: 2.5em;
+}
+
+.single-container {
+    width: 100%;
+    background-color: white;
+    margin: 1.5em 0;
+    padding: 0.5em 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.single-question {
+    height: 3em;
+    width: 100%;
+    padding: 0 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-btn {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.minus-btn {
+    display: none;
+}
+
+.horizontal-line {
+    display: none;
+}
+
+.answer-container {
+    display: none;
+} 
+
+.horizontal-line.show-text  {
+    height: 0.1em;
+    width: 90%;
+    background-color: grey;
+    opacity: 0.25;
+    display: block;
+}
+
+.answer-container.show-text  {
+    opacity: 0.75;
+    display: block;
+}
